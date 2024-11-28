@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/luleRecipes-project/static/css/main.566cfe28.css",
+    "main.js": "/luleRecipes-project/static/js/main.76dae282.js",
+    "static/media/home.png": "/luleRecipes-project/static/media/home.820f8ec798fc45316385.png",
+    "index.html": "/luleRecipes-project/index.html",
+    "main.566cfe28.css.map": "/luleRecipes-project/static/css/main.566cfe28.css.map",
+    "main.76dae282.js.map": "/luleRecipes-project/static/js/main.76dae282.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.566cfe28.css",
+    "static/js/main.76dae282.js"
+  ]
+}

@@ -1,0 +1,14 @@
+.btn {
+    color: #000000;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.btn:hover {
+    color: pink;
+}

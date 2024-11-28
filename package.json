@@ -2,6 +2,7 @@
   "name": "recipes",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dev-pedrooliveira.github.io/luleRecipes-project",
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
@@ -24,10 +25,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "backend":"json-server --watch db.json --port 5000",
+    "backend": "json-server --watch db.json --port 5000",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
